@@ -37,7 +37,7 @@ app.get("/getform", (req, res) => {
   res.render("getform");
 });
 
-//rendering page for post
+//snippet for rendering page for post
 
 app.get("/postform", (req, res) => {
   res.render("postform");
